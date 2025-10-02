@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Category
+
+<form method="post" action="/Categories/create">
+    <label for="catName">name</label>
+    <input name="Name" id="catName" type="text" />
+    <span asp-validation-for="Name" class="test-danger"></span>
+
+    <label for="catDescription">Description</label>
+    <input name="Description" id="catDescription" type="text" />
+    <span asp-validation-for="Description" class="test-danger"></span>
+    <button type="submit">add</button>
+
+</form>

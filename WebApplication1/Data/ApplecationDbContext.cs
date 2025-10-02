@@ -13,7 +13,7 @@ namespace WebApplication1.Data
             if (!optionsBuilder.IsConfigured) 
             {
                 optionsBuilder.UseSqlServer(
-                    "Server=(localdb)\\MSSQLLocalDB;Database=MVC12;Trusted_Connection=True;TrustServerCertificate=True"
+                    "Server=(localdb)\\MSSQLLocalDB;Database=MVC13;Trusted_Connection=True;TrustServerCertificate=True"
                 );
             }
         }
